@@ -1,0 +1,57 @@
+# Ignore Node.js modules
+node_modules/
+
+# Ignore Python virtual environments
+venv/
+.env/
+.venv/
+
+# Ignore checkpoint directories
+finetuned-model/
+# finetuned-model/checkpoint-*/
+
+# Ignore build artifacts and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Ignore log files and databases
+*.log
+*.sqlite
+*.db
+
+# Ignore environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore package manager files
+package-lock.json
+yarn.lock
+
+# Ignore training data and raw source code
+training-data/
+raw-source-code/
+
+# Ignore specific files
+source_files.txt
+ds_config.json

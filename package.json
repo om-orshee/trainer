@@ -1,0 +1,19 @@
+{
+  "name": "deepseek-coder-finetuning",
+  "version": "1.0.0",
+  "description": "JavaScript tools to prepare data for DeepSeek Coder v2 fine-tuning",
+  "main": "setup.js",
+  "scripts": {
+    "setup": "node setup.js",
+    "process": "node data-processor.js",
+    "full": "node setup.js && node data-processor.js"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.23.0",
+    "@babel/traverse": "^7.23.0",
+    "@babel/types": "^7.23.0"
+  },
+  "keywords": [],
+  "author": "orshee",
+  "license": "ISC"
+}

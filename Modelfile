@@ -1,0 +1,5 @@
+FROM deepseek-ai/DeepSeek-Coder-V2-Lite-Base
+ADAPTER ./finetuned-model  # Relative path to the adapter directory
+SYSTEM """You are a helpful AI assistant fine-tuned for EdgeBlocks component development tasks."""
+PARAMETER temperature 0.7
+PARAMETER top_p 0.9
