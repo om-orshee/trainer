@@ -50,7 +50,10 @@ yarn.lock
 
 # Ignore training data and raw source code
 training-data/
-raw-source-code/
+
+# Include raw-source-code folder but ignore its files
+raw-source-code/*
+!raw-source-code/
 
 # Ignore specific files
 source_files.txt
