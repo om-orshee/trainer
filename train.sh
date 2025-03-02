@@ -208,12 +208,12 @@ training_args = TrainingArguments(
     warmup_ratio=0.03,  # 3% of steps used for warmup
     logging_steps=1,
     save_steps=5,
-    save_total_limit=3,
-    fp16=False, 
+    fp16=True, 
     dataloader_drop_last=False,
     group_by_length=False,
     report_to="none",
     label_names=["input_ids"],  # Add this line
+    save_total_limit=2,  # Keep only the last 2 checkpoints
     resume_from_checkpoint=latest_checkpoint,  # Resume from the latest checkpoint
 )
 
